@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Michal Talaga</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
+}
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;497ebeb97c5fe7d2916e0cae3df4c3cd?s&#x3D;200&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Michal Talaga<br><span>Software Development Manager</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fa fa-user ico"></i> About</h2>
+            <p>I'm a results oriented, effective and often unorthodox software developer and leader. I take ownership, I lead and I deliver. I have a proven track record of completing projects and delivering working software from start to finish as a team member, a leader and a stakeholder.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Reed Online</div>
+                    <div class="year">September 2019 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Development Manager</div>
+                    <div class="description">
+                      Working with partners and internal teams. Setting up and improving processes
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Improved recruitment pipeline: online test, centralizing recruitment workflow. Working directly with recruiters and talent acquisition team. Hired number of developers</li>
+                        <li class="list-group-item">Technical point of contact for outsourced partner teams. Setting up development workflows, ensuring code quality</li>
+                        <li class="list-group-item">Liaised between internal teams</li>
+                        <li class="list-group-item">Ramped up multiple partner teams</li>
+                        <li class="list-group-item">Actively involved in architectural discussions</li>
+                        <li class="list-group-item">Conducted leads and team meetings</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Reed Online</div>
+                    <div class="year">July 2019 – September 2019</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Principal Engineer</div>
+                    <div class="description">
+                      Developing reed.co.uk website (C#, ASP.NET, .NET, .NET Core, Microservices, TDD)
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Lead a team of 3 developers</li>
+                        <li class="list-group-item">Actively involved in recruitment. Hired 2 team members for my team and number of developers for other teams</li>
+                        <li class="list-group-item">Extracted SEO service from a monolithic application</li>
+                        <li class="list-group-item">Fixed nightly builds and flaky tests. Fixed casing issues in git</li>
+                        <li class="list-group-item">Actively involved in architectural discussions</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Mountain Warehouse</div>
+                    <div class="year">June 2018 – June 2019</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Lead .NET Developer</div>
+                    <div class="description">
+                      Lead a team of 5 developers and a tester (C#, .NET, .NET Core, SQL Server, RabbitMQ, Microservices, Event Driven, CQRS, Event Sourcing, TDD, Docker)
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Maintained a low incidents ratio SLA</li>
+                        <li class="list-group-item">Maintained a CI/CD pipeline with on demand deployment to production</li>
+                        <li class="list-group-item">Operated a fully devops environment with developers owning their work end to end</li>
+                        <li class="list-group-item">Conducted regular 1:1 and team building activities. Mentored and coached team members</li>
+                        <li class="list-group-item">Conducted phone and face to face interviews. Hired 6 developers</li>
+                        <li class="list-group-item">Extracted parts of the monolith to services</li>
+                        <li class="list-group-item">Implemented 3 new warehouse integrations. Unified codebase and workflows for 2 existing warehouses. Worked directly with warehouses' developers</li>
+                        <li class="list-group-item">Implemented returns from stores process for bulk stock transfers back to a warehouse</li>
+                        <li class="list-group-item">Rebuilt returns/exchanges data flow</li>
+                        <li class="list-group-item">Improved performance around orders processing to support Black Friday peak sales</li>
+                        <li class="list-group-item">Worked with a third party vendor to Create a Web Returns in Store portal and supporting data flows</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">GoHosting</div>
+                    <div class="year">January 2014 – June 2018</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">#1 Developer</div>
+                    <div class="description">
+                      Development of all of the company's systems and applications (C#, ASP.NET, .NET, AngularJS, SignalR, TypeScript, JavaScript, SQL Server, IoT, Raspberry PI, Python, Access Control, CQRS)
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Created a camping field management: online booking & payments, resource & inventory management, accounting, payments, data migrations</li>
+                        <li class="list-group-item">Created a point of Sale system integrated with web printers</li>
+                        <li class="list-group-item">Built an access control system based on RFID and Raspberry PI</li>
+                        <li class="list-group-item">Created a home monitoring system & self service control panel with Raspberry PI</li>
+                        <li class="list-group-item">Supervised and mentored on site and nearshore developers</li>
+                        <li class="list-group-item">Migrated from a single tenant to a multi-tenant application model</li>
+                        <li class="list-group-item">Maintained a character traits and qualities assessment website</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Sitecore</div>
+                    <div class="year">August 2012 – December 2013</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Trainer</div>
+                    <div class="description">
+                      Conducted training & certification sessions for new Sitecore Certified Developers (C#, ASP.NET, .NET, Sitecore). Assisted in sales process
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Delivered training sessions across the globe</li>
+                        <li class="list-group-item">Supported numerous successful technical sales presentations</li>
+                        <li class="list-group-item">Prepared proof of concepts demonstrations</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Roche</div>
+                    <div class="year">September 2011 – August 2012</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Consultant</div>
+                    <div class="description">
+                      Developed a data migration solution as part of the top 10 priority projects globally (C#)
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Acted as a team lead of 3 developers</li>
+                        <li class="list-group-item">Built a tool to migrate data between 3rd party vendors in a validate environment</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Objectware.pl</div>
+                    <div class="year">September 2008 – December 2010</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Freelance Business Owner</div>
+                    <div class="description">
+                      Outsourced software development (C#, .NET, ASP.NET, Active Directory, SQL Server, ELK, PHP)
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Hired and outsources 3 software developers as a nearshore solution to Scannet</li>
+                        <li class="list-group-item">Joined a startup and built a self service hosted office solution with Windows Remote Apps</li>
+                        <li class="list-group-item">Multiple small projects & assignments</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Scannet.dk</div>
+                    <div class="year">September 2006 – December 2008</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Developer</div>
+                    <div class="description">
+                      Created company's web control panel for products. Built a resource monitoring and billing solution. (C#, ASP.NET WebForms, .NET, SQL Server, MS Exchange, HMC)
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Created a self service web control panel for Hosted Exchange and other products</li>
+                        <li class="list-group-item">Programmatically migrated organizations and users from Exchange 2003 to Exchange 2007</li>
+                        <li class="list-group-item">Created a resource monitoring and billing tool and earned the company 500k DKK/year in missing invoices</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Sputnik Software</div>
+                    <div class="year">April 2005 – August 2006</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Developer</div>
+                    <div class="description">
+                      Development of WinForms & WebForms applications (C#, .NET, ASP.NET, SQL Server)
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Built a drag and drop any application in place auto update component</li>
+                        <li class="list-group-item">Developed a digital signature solution using a X509 certificates and a hardware security module (HSM)</li>
+                        <li class="list-group-item">Created an ORM library</li>
+                        <li class="list-group-item">Ported a WinForms application to ASP.NET WebForms</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Dantek</div>
+                    <div class="year">April 2004 – March 2006</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer</div>
+                    <div class="description">
+                      Maintenance and development of VB6 applications (VB6, SQL Server, VB.NET, .NET)
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Developed a VB.NET frontend over VB6 COM components</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">BCC</div>
+                    <div class="year">January 2000 – March 2004</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">System Administrator</div>
+                    <div class="description">
+                      Responsible for all systems operations. Hardware & software maintenance and purchases
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Built a VB6 application for Amica Wronki service centers</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- AWARDS -->
+          <div class="box">
+            <h2><i class="fa fa-certificate ico"></i> Awards</h2>
+            <ul id="awards" class="clearfix">
+              <li>
+                <div class="year pull-left">July  2016</div>
+                <div class="description pull-right">
+                  <h3>Toastmasters International</h3>
+                  <p><i class="fa fa-trophy ico"></i> Excellence in Program Quality</p>
+                  <p>Met all the goals in program quality. The District scored top 10 in the world</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2016</div>
+                <div class="description pull-right">
+                  <h3>Toastmasters International</h3>
+                  <p><i class="fa fa-trophy ico"></i> President&#39;s Distinguished District</p>
+                  <p>Top score in the Distinguished District Program</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2015</div>
+                <div class="description pull-right">
+                  <h3>Toastmasters International</h3>
+                  <p><i class="fa fa-trophy ico"></i> Excellence in Marketing</p>
+                  <p>Met all the goals in club building and membership growth. The District scored #1 in the world</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2015</div>
+                <div class="description pull-right">
+                  <h3>Toastmasters International</h3>
+                  <p><i class="fa fa-trophy ico"></i> President&#39;s Distinguished District</p>
+                  <p>Top score in the Distinguished District Program</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2014</div>
+                <div class="description pull-right">
+                  <h3>Toastmasters International</h3>
+                  <p><i class="fa fa-trophy ico"></i> President’s Distinguished Division</p>
+                  <p>Top score in the Distinguished District Program</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2012</div>
+                <div class="description pull-right">
+                  <h3>Toastmasters International</h3>
+                  <p><i class="fa fa-trophy ico"></i> President&#39;s Distinguished Club</p>
+                  <p>Top score in the Distinguished Club Program</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">June  2013</div>
+                <div class="description pull-right">
+                  <h3>Toastmasters International</h3>
+                  <p><i class="fa fa-trophy ico"></i> Advanced Communicator Bronze</p>
+                  <p>Advanced level certification in leadership</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">June  2012</div>
+                <div class="description pull-right">
+                  <h3>Toastmasters International</h3>
+                  <p><i class="fa fa-trophy ico"></i> Advanced Leader Bronze</p>
+                  <p>Advanced level certification in leadership</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">June  2012</div>
+                <div class="description pull-right">
+                  <h3>Toastmasters International</h3>
+                  <p><i class="fa fa-trophy ico"></i> Competent Leader</p>
+                  <p>Basic level certification in leadership</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">June  2012</div>
+                <div class="description pull-right">
+                  <h3>Toastmasters International</h3>
+                  <p><i class="fa fa-trophy ico"></i> Competent Communicator</p>
+                  <p>Basic level certification in public speaking</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2013</div>
+                <div class="description pull-right">
+                  <h3>Sitecore</h3>
+                  <p><i class="fa fa-trophy ico"></i> Sitecore 7 Certified Developer and Trainer</p>
+                  <p>Passed exam WND (Sitecore)</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2013</div>
+                <div class="description pull-right">
+                  <h3>Sitecore</h3>
+                  <p><i class="fa fa-trophy ico"></i> Sitecore Certified Marketer and Trainer</p>
+                  <p>Passed exam DMC 2.0 (Sitecore DMS)</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">September  2012</div>
+                <div class="description pull-right">
+                  <h3>Sitecore</h3>
+                  <p><i class="fa fa-trophy ico"></i> Sitecore 6.5 Certified Developer and Trainer</p>
+                  <p>Passed exam SND (Sitecore)</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2010</div>
+                <div class="description pull-right">
+                  <h3>Microsoft</h3>
+                  <p><i class="fa fa-trophy ico"></i> Microsoft - exams</p>
+                  <p>Passed exams 71-519 (.NET 4/Web Applications), 71-518 (.NET 4/Windows Applications), 71-516 (.NET 4/ADO.NET), (.NET 4/Web Applications), (.NET 4/Windows Applications)</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2010</div>
+                <div class="description pull-right">
+                  <h3>Microsoft</h3>
+                  <p><i class="fa fa-trophy ico"></i> Microsoft Certified Technology Specialist - Silverlight 4</p>
+                  <p>Passed exam 71-506 (.NET/Silverlight 4)</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2009</div>
+                <div class="description pull-right">
+                  <h3>Microsoft</h3>
+                  <p><i class="fa fa-trophy ico"></i> Microsoft Certified Professional Developer - Web</p>
+                  <p>Passed exams 70-564 (PRO ASP.NET .NET 3.5/C#), 70-536 (.NET/C#), 70-528 (ASP.NET/C#)</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2006</div>
+                <div class="description pull-right">
+                  <h3>Microsoft</h3>
+                  <p><i class="fa fa-trophy ico"></i> Microsoft Certified Solution Developer</p>
+                  <p>Passed exams 70-300 (Architecture/Requirements), 70-229 (SQL Server), 70-547 (ASP.NET 2.0/C# 2.0)</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2005</div>
+                <div class="description pull-right">
+                  <h3>Microsoft</h3>
+                  <p><i class="fa fa-trophy ico"></i> Microsoft Certified Application Developer</p>
+                  <p>Passed exams 70-320 (Web Services/C#), 70-316 (Windows Forms/C#), 70-315 (ASP.NET/C#)</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">July  2001</div>
+                <div class="description pull-right">
+                  <h3>Microsoft</h3>
+                  <p><i class="fa fa-trophy ico"></i> Microsoft Certified Professional</p>
+                  <p>Passed exam 70-210: Microsoft Windows 2000 Professional</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- VOLUNTEER -->
+          <div class="box">
+            <h2><i class= "fa fa-group ico"></i> Volunteer</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Toastmasters International</div>
+                    <div class="year">July 2017 – June 2018</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-11 pull-right">
+                    <div class="profession">Immediate Past District Director</div>
+                    <div class="description">
+                      Advisory role to the incoming team
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Presided over newly formed District Conference</li>
+                        <li class="list-group-item">District Parliamentarian</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Toastmasters International</div>
+                    <div class="year">July 2016 – June 2017</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-11 pull-right">
+                    <div class="profession">District Director</div>
+                    <div class="description">
+                      Responsible for all of District's operations from creating the District Success Plan and budgeting to daily operations
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Lead a team of 6 district leaders and 12 Division Directors</li>
+                        <li class="list-group-item">Presided over district executive and district council meetings</li>
+                        <li class="list-group-item">Prepared the District for a new Educational Program</li>
+                        <li class="list-group-item">Navigated through number of major obstacles such as dues increase & black PR from competing organizations</li>
+                        <li class="list-group-item">Realigned the District into 3 new districts</li>
+                        <li class="list-group-item">2 x District Conferences - 300+ attendees (Warsaw, Berlin)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Toastmasters International</div>
+                    <div class="year">July 2015 – June 2016</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-11 pull-right">
+                    <div class="profession">Program Quality Director</div>
+                    <div class="description">
+                      Responsible for program quality in continental Europe. Organization of District Conferences
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Part of the District Leadership team. Worked directly with 10 Division Directors</li>
+                        <li class="list-group-item">Organized trainings for incoming leaders</li>
+                        <li class="list-group-item">Excellence in Program Quality</li>
+                        <li class="list-group-item">President's Distinguished District - highest recognition</li>
+                        <li class="list-group-item">2 x District Conferences - 300+ attendees (Prague, Timisoara)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Toastmasters International</div>
+                    <div class="year">July 2014 – June 2015</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-11 pull-right">
+                    <div class="profession">Lieutenant Governor Marketing</div>
+                    <div class="description">
+                      Responsible for building new clubs and membership base in continental Europe
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Part of the District Leadership team worked directly with 10 Division Governors</li>
+                        <li class="list-group-item">#1 in the world in club growth</li>
+                        <li class="list-group-item">Excellence in Marketing recognition</li>
+                        <li class="list-group-item">President's Distinguished District - highest recognition</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Toastmasters International</div>
+                    <div class="year">July 2013 – June 2014</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-11 pull-right">
+                    <div class="profession">Division Governor</div>
+                    <div class="description">
+                      Responsible for all clubs in Poland: building new clubs, ensuring quality, organizing conferences
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Lead a team of 7 area governors</li>
+                        <li class="list-group-item">President’s Distinguished Division - highest recognition</li>
+                        <li class="list-group-item">Hosted the first polish humorous speech championship</li>
+                        <li class="list-group-item">2 x Toastmasters Leadership Institutes - 300+ attendees</li>
+                        <li class="list-group-item">30% growth in club base</li>
+                        <li class="list-group-item">Chaired the Division Reformation Committee</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Toastmasters International</div>
+                    <div class="year">July 2012 – June 2013</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-11 pull-right">
+                    <div class="profession">Vice President Public Relations</div>
+                    <div class="description">
+                      Responsible for all PR activities
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Club members featured in local TV and radio stations</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Toastmasters International</div>
+                    <div class="year">July 2011 – June 2012</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-11 pull-right">
+                    <div class="profession">Club President</div>
+                    <div class="description">
+                      Presided over a club of 30-50 members. Represented the club on District Council Meetings
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Presided over club weekly meetings, club's board meetings and lead a team of 6 club officers</li>
+                        <li class="list-group-item">Missed no meetings in over a year of membership</li>
+                        <li class="list-group-item">President’s Distinguished Club - highest recognition</li>
+                        <li class="list-group-item">Organizers team of a District Conference - 300+ attendees</li>
+                        <li class="list-group-item">Trained small business owners, students and scouts on public speaking</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
+              
+              <div class="title only  pull-right">Harrow HA3 UK</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">+447853852524</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:mt@objectware.pl" target="_blank">mt@objectware.pl</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
+              <div class="title pull-right">github</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;michaltalaga" target="_blank">michaltalaga</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">linkedin</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;mikeon&#x2F;" target="_blank">mikeon</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fa fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">1999 2015</div>
+                <div class="description pull-right">
+                  <h3>Poznan University of Technology</h3>
+                  <p><i class= "fa fa-graduation-cap ico"></i> MSc</p>
+                  <p>Information Technology</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2011 2018</div>
+                <div class="description pull-right">
+                  <h3>Toastmasters International</h3>
+                  
+                  <p>Public Speaking &amp; Leadership</p>
+                    <div>Courses</div>
+                    <ul class="list-group">
+                      <li class="list-group-item">Leadership</li>
+                      <li class="list-group-item">Public Speaking</li>
+                      <li class="list-group-item">Coaching</li>
+                      <li class="list-group-item">Mentoring</li>
+                      <li class="list-group-item">Team Building</li>
+                    </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fa fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Leadership
+                  <span class="skill-level">Current</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Coaching</span>
+                <span class= "skill badge">Mentoring</span>
+                <span class= "skill badge">Team Building</span>
+                <span class= "skill badge">Public Speaking</span>
+                <span class= "skill badge">Presentations</span>
+                <span class= "skill badge">Goal Setting</span>
+                <span class= "skill badge">Processes</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Backend Development
+                  <span class="skill-level">Current</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">C#</span>
+                <span class= "skill badge">.NET</span>
+                <span class= "skill badge">.NET Core</span>
+                <span class= "skill badge">Microservices</span>
+                <span class= "skill badge">SOA</span>
+                <span class= "skill badge">Event Driven Architecture</span>
+                <span class= "skill badge">Messaging</span>
+                <span class= "skill badge">RabbitMQ</span>
+                <span class= "skill badge">CQRS</span>
+                <span class= "skill badge">Event Sourcing</span>
+                <span class= "skill badge">DDD</span>
+                <span class= "skill badge">Docker</span>
+                <span class= "skill badge">DevOps</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  IoT
+                  <span class="skill-level">Legacy</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Raspberry PI</span>
+                <span class= "skill badge">Raspbian</span>
+                <span class= "skill badge">Linux</span>
+                <span class= "skill badge">Mono</span>
+                <span class= "skill badge">.NET</span>
+                <span class= "skill badge">.NET Core</span>
+                <span class= "skill badge">C#</span>
+                <span class= "skill badge">SignalR</span>
+                <span class= "skill badge">Python</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Web Development
+                  <span class="skill-level">Legacy</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">HTML</span>
+                <span class= "skill badge">CSS</span>
+                <span class= "skill badge">Javascript</span>
+                <span class= "skill badge">Typescript</span>
+                <span class= "skill badge">jQuery</span>
+                <span class= "skill badge">AngularJS</span>
+                <span class= "skill badge">Bootstrap</span>
+                <span class= "skill badge">Knockout</span>
+                <span class= "skill badge">ASP.NET WebForms</span>
+                <span class= "skill badge">ASP.NET MVC</span>
+                <span class= "skill badge">.NET</span>
+                <span class= "skill badge">C#</span>
+                <span class= "skill badge">VB.NET</span>
+                <span class= "skill badge">PHP</span>
+                <span class= "skill badge">SignalR</span>
+                <span class= "skill badge">MySQL</span>
+                <span class= "skill badge">PostreSQL</span>
+                <span class= "skill badge">Wordpress</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Desktop Development
+                  <span class="skill-level">Legacy</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">VB6</span>
+                <span class= "skill badge">C++</span>
+                <span class= "skill badge">WindowsForms</span>
+                <span class= "skill badge">.NET</span>
+                <span class= "skill badge">WPF</span>
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box">
+            <h2><i class="fa fa-language ico"></i> Languages</h2>
+            <ul class="list-group">
+              <li class=" list-group-item">Polish<span class="skill badge pull-right">Native speaker</span></li>
+              <li class=" list-group-item">English<span class="skill badge pull-right">Fluent</span></li>
+            </ul>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2><i class="fa fa-heart ico"></i> Interests</h2>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Personal Development
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Toastmasters</span>
+                <span class= "interest badge">Public Speaking</span>
+                <span class= "interest badge">Leadership</span>
+                <span class= "interest badge">NLP</span>
+                <span class= "interest badge">Hypnosis</span>
+                <span class= "interest badge">Networking</span>
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Libertarianism
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Austrian Economics</span>
+                <span class= "interest badge">Philosophy</span>
+                <span class= "interest badge">Free Market</span>
+                <span class= "interest badge">Libertarian</span>
+                <span class= "interest badge">Objectivism</span>
+                <span class= "interest badge">Capitalism</span>
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Books
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Audiobooks</span>
+                <span class= "interest badge">Fantasy</span>
+                <span class= "interest badge">Sci-Fi</span>
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Games
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Board Games</span>
+                <span class= "interest badge">Role Playing</span>
+                <span class= "interest badge">Game Mechanics</span>
+                <span class= "interest badge">Streaming</span>
+                <span class= "interest badge">Game Development</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
